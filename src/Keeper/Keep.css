@@ -1,0 +1,62 @@
+.Title{
+    border: none;
+    height: 35px;
+    width: 100%;
+    font-size:25px ;
+}
+.Title:focus {
+    outline: none;
+}
+.Title::placeholder {
+    font-size:29px;
+} 
+#w3review{
+width: 100%;
+border: none;
+}
+#w3review:focus {
+    outline: none;
+}
+.fa-sharp{
+    color: white;
+    font-size: 40px;
+}
+.round{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(225,67,42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rounddata{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(225,67,42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid{
+    font-size: 20px;
+}
+.card-text{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.editcard{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    width: 35%;
+  }
+  .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+.showcard{
+    width: 100%;
+
+}
